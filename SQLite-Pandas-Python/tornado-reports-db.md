@@ -16,7 +16,7 @@ df = pd.read_csv('190924_rpts_filtered_torn.csv',parse_dates=True)
 
 ~~~
 
-###  With the new database created, the data from the tornado reports .csv file can be moved over via columns to tables in Pandas .to_sql() method
+###  With the new database created, the data from the tornado reports ```.csv``` file can be moved over via columns to tables in Pandas ```.to_sql()``` method
 
 ~~~Python
 con = sqlite3.connect("test_rpts.db")
