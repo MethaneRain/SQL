@@ -3,3 +3,7 @@
 #### Thus, the first way I found to work with SQL DBs is via Python
   * Work with SQL DBs via sqlite3 library
   * Work with Pandas to navigate the DBs as clean tables with visualization
+
+Update: --I've gotten back to working with osx so I will explore different options soon--
+
+###
