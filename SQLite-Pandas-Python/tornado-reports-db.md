@@ -30,7 +30,7 @@ df.to_sql("storms", con, if_exists='replace', index=False)
 
 df = pd.read_sql_query("SELECT * FROM storms ",con)
 df
-
+```
 ```
 
 Time	F_Scale	Location	County	State	Lat	Lon	Comments
